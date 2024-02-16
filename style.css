@@ -1,0 +1,105 @@
+/* Establece el margen y el relleno del cuerpo del documento en 0 para eliminar cualquier margen o relleno predeterminado */
+body {
+    margin: 0;
+    padding: 0;
+    /* Ajusta el tamaño del fondo para cubrir toda la pantalla */
+    background-size: cover;
+    /* Centra el fondo */
+    background-position: center;
+    /* Transición suave para cambiar la imagen de fondo */
+    transition: background-image 0.5s ease;
+}
+
+/* Establece un margen superior para el elemento con la clase "principal" */
+.principal {
+    margin-top: 5px;
+}
+
+/* Estilos para el título */
+.title {
+    /* Margen superior */
+    margin-top: 10px;
+    /* Fondo semi-transparente */
+    background: rgba(0, 0, 0, 0.8);
+    /* Ancho del 60% del contenedor */
+    width: 60%;
+    /* Margen automático en los lados para centrar horizontalmente */
+    margin: 0 auto;
+}
+
+/* Estilos para el texto animado */
+#animated-text {
+    /* Evita que el texto se desborde del contenedor */
+    overflow: hidden;
+    /* Evita saltos de línea */
+    white-space: nowrap;
+    /* Estilos de alineación del texto */
+    text-align: center;
+    /* Color del texto */
+    color: #03A9F4;
+    /* Altura del contenedor */
+    height: 40px;
+    /* Tamaño de fuente */
+    font-size: 2.5rem;
+}
+
+/* Estilos para la descripción de texto */
+.text-description {
+    /* Estilos de alineación del texto */
+    text-align: center;
+    /* Color del texto */
+    color: white;
+    /* Tamaño de fuente */
+    font-size: 1.5rem;
+} 
+
+.container {
+    /* Flexbox para contener las filas */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para cada fila */
+.row {
+    /* Flexbox para alinear los elementos */
+    display: flex;
+    justify-content: center;
+    /* Margen inferior para separar las filas */
+    margin-bottom: 50px;
+}
+
+/* Estilos para cada elemento */
+.item {
+    /* Margen entre elementos */
+    margin: 10px;
+}
+
+/* Estilos para las imágenes */
+img{
+    /* Tamaño fijo para las imágenes */
+    width: 200px;
+    height: 200px;
+    /* Margen para separar las imágenes */
+    margin: 0 20px 0 20px;
+}
+
+/* Estilos para el pie de página */
+.pie{
+    /* Texto centrado */
+    text-align: center;
+    /* Fondo semi-transparente */
+    background: rgba(0, 0, 0, 0.8);
+    /* Ancho del 60% del contenedor */
+    width: 60%;
+    /* Margen automático en los lados para centrar horizontalmente */
+    margin: 0 auto;
+    /* Relleno para separar el contenido del borde */
+    padding: 10px;
+}
+
+/* Estilos para el texto dentro del pie de página */
+.pie>p{
+    /* Color del texto */
+    color: white;
+}
